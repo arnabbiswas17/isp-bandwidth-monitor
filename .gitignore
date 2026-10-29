@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+.snmp/
+*snmp.conf
+inspection*.txt

@@ -1,0 +1,118 @@
+{
+  "host": "172.16.212.251",
+  "interval_seconds": 10,
+  "selected": [
+    "ae11"
+  ],
+  "interfaces": [
+    {
+      "name": "et-0/0/0",
+      "ifindex": 559
+    },
+    {
+      "name": "et-0/0/1",
+      "ifindex": 560
+    },
+    {
+      "name": "et-0/0/2",
+      "ifindex": 561
+    },
+    {
+      "name": "xe-0/1/0",
+      "ifindex": 542
+    },
+    {
+      "name": "xe-0/1/1",
+      "ifindex": 543
+    },
+    {
+      "name": "xe-0/1/2",
+      "ifindex": 544
+    },
+    {
+      "name": "xe-0/1/3",
+      "ifindex": 545
+    },
+    {
+      "name": "xe-0/1/4",
+      "ifindex": 546
+    },
+    {
+      "name": "xe-0/1/5",
+      "ifindex": 547
+    },
+    {
+      "name": "xe-0/1/6",
+      "ifindex": 548
+    },
+    {
+      "name": "xe-0/1/7",
+      "ifindex": 549
+    },
+    {
+      "name": "ae2",
+      "ifindex": 620
+    },
+    {
+      "name": "ae3",
+      "ifindex": 716
+    },
+    {
+      "name": "ae4",
+      "ifindex": 748
+    },
+    {
+      "name": "ae11",
+      "ifindex": 532
+    },
+    {
+      "name": "ae11.374",
+      "ifindex": 802
+    },
+    {
+      "name": "ae11.379",
+      "ifindex": 974
+    },
+    {
+      "name": "ae11.665",
+      "ifindex": 966
+    },
+    {
+      "name": "ae11.32767",
+      "ifindex": 535
+    }
+  ],
+  "boundary_label": "ae11 upstream QFX aggregate only; verified SSH ifIndex 532, seven 10G members",
+  "boundary_reviewed": false,
+  "overlap_groups": [
+    [
+      "xe-0/1/0",
+      "xe-0/1/1",
+      "xe-0/1/2",
+      "xe-0/1/4",
+      "xe-0/1/5",
+      "xe-0/1/6",
+      "xe-0/1/7",
+      "ae11",
+      "ae11.374",
+      "ae11.379",
+      "ae11.665",
+      "ae11.32767"
+    ],
+    [
+      "et-0/0/0",
+      "et-0/0/2",
+      "ae2"
+    ],
+    [
+      "et-0/0/1",
+      "ae3"
+    ],
+    [
+      "xe-0/1/3"
+    ],
+    [
+      "ae4"
+    ]
+  ]
+}
